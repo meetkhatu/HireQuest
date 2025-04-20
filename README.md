@@ -1,19 +1,32 @@
-Frontend Assignment – Job Portal Dashboard
+# 🧑‍💻 Frontend Assignment – Job Portal Dashboard
 
-Overview
+🔗 **Live Demo:** [coderound.vercel.app](https://coderound.vercel.app/)
 
-I built the entire project in React using the vite tool, and made use of TailwindCSS and reaxt-icons for the UI, framer-motion for the animations and react-router-dom for the entire routing of the project.
+## 📋 Overview
 
-The website allows users to search for their desired job by their preferred job title, company, tech stack and location, further streamlining the search by using filters to filter out part-time, remote or even full-time roles. Users can check out their details in the profile section where they can edit and make changes to their profile photo, name, email, Linkedin URL, Resume URL and password.
+This is a modern Job Portal Dashboard built with **React** using **Vite**, styled with **TailwindCSS**, animated with **Framer Motion**, and structured using **React Router DOM**. I also utilized **React Icons** for consistent and appealing UI icons.
 
-My entire thought process while building this project was to make an end-to-end user experience with a modern, minimal but also visually appealing website with the help of subtle animations, colours and icons but keeping it very easy to use and accessible to everyone as I have tried to make it responsive to all screen sizes.
+### ✨ Features
 
-Instructions on how to run the project locally
+- 🔍 **Job Search** by title, company, tech stack, and location  
+- 🎯 **Filters** for part-time, full-time, and remote roles  
+- 👤 **Profile Section** with editable:
+  - Profile photo
+  - Name
+  - Email
+  - LinkedIn URL
+  - Resume URL
+  - Password
+- 💡 **Modern, responsive design** with minimal and accessible UI
+- 🎨 **Subtle animations** and visual polish using Framer Motion
 
-1. Download all the dependancies
+My goal while building this was to create an intuitive end-to-end user experience that's not only visually pleasing but also responsive and accessible across all screen sizes.
 
-npm i
+---
 
-2. Run the project on your local machine
+## 🚀 Getting Started
 
-npm run dev
+### 🔧 Install Dependencies
+
+```bash
+npm install
