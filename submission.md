@@ -30,3 +30,10 @@ My goal while building this was to create an intuitive end-to-end user experienc
 
 ```bash
 npm install
+```
+
+### ▶️ Run a Development Server
+
+```bash
+npm run dev
+```
