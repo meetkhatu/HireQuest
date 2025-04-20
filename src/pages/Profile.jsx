@@ -105,7 +105,7 @@ const Profile = () => {
 
                 <button
                   onClick={() => handleEditToggle(field)}
-                  className="text-sm text-blue-500 hover:underline"
+                  className="text-sm text-blue-500 hover:underline cursor-pointer"
                 >
                   {editingField === field ? "Save" : "Edit"}
                 </button>
