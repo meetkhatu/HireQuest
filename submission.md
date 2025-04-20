@@ -4,13 +4,13 @@
 
 ## Overview
 
-This is a modern Job Portal Dashboard built with **React** using **Vite**, styled with **TailwindCSS**, animated with **Framer Motion**, and structured using **React Router DOM**. I also utilized **React Icons** for consistent and appealing UI icons.
+This is a Job Portal built with **React** using **Vite**, styled with **TailwindCSS**, animated with **Framer Motion**, and structured using **React Router DOM**. I also utilized **React Icons** for consistent and appealing UI icons.
 
 ### Features
 
 - **Job Search** by title, company, tech stack, and location  
 - **Filters** for part-time, full-time, and remote roles  
-- **Profile Section** with editable:
+- **Profile Section** is saved locally on the browser's local storage with editable:
   - Profile photo
   - Name
   - Email
@@ -20,11 +20,11 @@ This is a modern Job Portal Dashboard built with **React** using **Vite**, style
 - **Modern, responsive design** with minimal and accessible UI
 - **Subtle animations** and visual polish using Framer Motion
 
-My goal while building this was to create an intuitive end-to-end user experience that's not only visually pleasing but also responsive and accessible across all screen sizes.
+My goal while building this was to create an intuitive end-to-end user experience that's not only visually pleasing but also responsive and tried to make it accessible across all screen sizes.
 
 ---
 
-## Getting Started
+## How to run the Project locally
 
 ### Install Dependencies
 
