@@ -13,7 +13,7 @@ This is a Job Portal built with **React** using **Vite**, styled with **Tailwind
 - **Profile Section** is saved locally on the browser's local storage with editable:
   - Profile photo
   - Name
-  - Email
+  - Email (validated before saving which throws an invalid email error if the email has an invalid format)
   - LinkedIn URL
   - Resume URL
   - Password

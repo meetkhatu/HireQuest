@@ -1,4 +1,4 @@
-import React, {  useState } from 'react';
+import React, { useState } from 'react';
 import Input from '../components/Input/Input';
 import JobsLayout from '../components/Layouts/JobsLayout';
 import ProfilePhotoSelector from '../components/Input/ProfilePhotoSelector';
@@ -58,10 +58,11 @@ const Profile = () => {
 
 
   const setImage = (newImage) => {
-    setProfile((prevProfile) => ({
-      ...prevProfile,
-      photo: newImage,
-    }));
+    setProfile((prevProfile) => {
+      const updatedProfile = { ...prevProfile, photo: newImage }
+      localStorage.setItem(LOCAL_STORAGE_KEY, JSON.stringify(updatedProfile))
+      return updatedProfile
+    })
   };
 
   return (
