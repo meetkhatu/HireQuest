@@ -28,7 +28,7 @@ const JobsLayout = ({ children }) => {
                             className='text-blue-500 font-bold text-2xl p-0'
                             onClick={handleReload}
                         >
-                            CODEROUND
+                            HireQuest
                         </Link>
                     </motion.div>
                 </div>
